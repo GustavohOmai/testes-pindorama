@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cursor-buy: ;
+}
+body{
+    font-size: 62.5%;
+    /* overflow: hidden; */
+    cursor: url(../assets/images/buy-now-btn.png);
+    background: linear-gradient(254.85deg, #454e41 -10.53%, #363636 130.97%);
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(254.85deg, #454e41 -10.53%, #363636 130.97%); */
+}
+.logo{
+    width: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem
+}
+
+header ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    transition: .5s;
+}
+
+header ul a:hover{
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 80%;
+}
+
+.h100{
+    margin-top: 10rem;
+    height: 100vh;
+
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texts{
+    color: #fff;
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 50%;
+    margin-left: 400px;
+}
+
+.texts h2{
+    font-family: 'Bahiana', cursive;
+    font-size: 128px;
+}
+
+.texts h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 150px;
+    margin: -60px 0 ;
+}
+
+
+.product{
+    width: 400px;
+    position: absolute;
+    margin-bottom: 100px;
+    margin-left: 250px;
+}
+
+.product img{
+    width: 50%;
+}
+
+.product img:hover {
+    cursor: var(--cursor-buy) 28 28,auto;
+}
+
+
+
+.arrow img{
+    width: 60%;
+}
+
+.arrow{
+    position: absolute;
+    right: 25px;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+
+.layer-5{
+    position: absolute;
+    display: none;
+}
+.layer-6{
+    position: absolute;
+    display: none;
+}
+.layer-7{
+    position: absolute;
+    display: none;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -100px;
+}
+
+.img-center img{
+    width: 250px;
+    transform: rotate(-16deg);
+    position: absolute;
+}
+
+.img-center h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 250px;
+    color: #fff;
+}
+
+
+.garrafa-pindorama {
+    max-width:150px;
+  }
+
+  .w-50{
+    width: 50%;
+  }
+
+  .w-50 p{
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+.m-top{
+    margin-top: 10rem;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.caixas{
+    width: 70%;
+    margin-left: 150px;
+}
+
+.caixasimgs{
+    display: flex;
+    justify-content: start;
+}
+
+.caixagarrafa{
+    position: absolute;
+    margin-top: 500px;
+}
+
+
+.fazenda{
+    width: 70%;
+}
+
+.fazendaimgs{
+    display: flex;
+    justify-content: start;
+}
+
+.alambique{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+    z-index: -1;
+}
